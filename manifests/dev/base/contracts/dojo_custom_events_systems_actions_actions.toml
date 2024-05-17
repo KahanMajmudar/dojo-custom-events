@@ -1,0 +1,9 @@
+kind = "DojoContract"
+class_hash = "0x3709706f823e86028630084ac6eb777ec208af102ae29830c993022fe826dd3"
+original_class_hash = "0x3709706f823e86028630084ac6eb777ec208af102ae29830c993022fe826dd3"
+base_class_hash = "0x0"
+abi = "manifests/dev/abis/base/contracts/dojo_custom_events_systems_actions_actions.json"
+reads = []
+writes = []
+computed = []
+name = "dojo_custom_events::systems::actions::actions"

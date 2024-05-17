@@ -1,0 +1,30 @@
+kind = "DojoModel"
+class_hash = "0x77aa0c4b1d5ed0734ae123e8c205e4911508557e0550d758e916f23ebfc27bf"
+original_class_hash = "0x77aa0c4b1d5ed0734ae123e8c205e4911508557e0550d758e916f23ebfc27bf"
+abi = "manifests/dev/abis/base/models/dojo_custom_events_models_player_player.json"
+name = "dojo_custom_events::models::player::player"
+
+[[members]]
+name = "player"
+type = "ContractAddress"
+key = true
+
+[[members]]
+name = "name"
+type = "felt252"
+key = false
+
+[[members]]
+name = "health"
+type = "usize"
+key = false
+
+[[members]]
+name = "wins"
+type = "usize"
+key = false
+
+[[members]]
+name = "loss"
+type = "usize"
+key = false

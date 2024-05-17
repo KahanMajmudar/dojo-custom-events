@@ -1,0 +1,60 @@
+[world]
+kind = "Contract"
+class_hash = "0x799bc4e9da10bfb3dd88e6f223c9cfbf7745435cd14f5d69675ea448e578cd"
+original_class_hash = "0x799bc4e9da10bfb3dd88e6f223c9cfbf7745435cd14f5d69675ea448e578cd"
+abi = "abis/deployments/dojo_world_world.json"
+address = "0x2d80b0f414a161d27032154952314eb44828472e891422c7c071e87281b217e"
+transaction_hash = "0x24fea1a49cfba202d9f454ce62e961a5b24e1eeb817bc3a04cd64c553988dca"
+block_number = 3
+seed = "dojo_custom_events"
+name = "dojo::world::world"
+
+[base]
+kind = "Class"
+class_hash = "0x679177a2cb757694ac4f326d01052ff0963eac0bc2a17116a2b87badcdf6f76"
+original_class_hash = "0x679177a2cb757694ac4f326d01052ff0963eac0bc2a17116a2b87badcdf6f76"
+name = "dojo::base::base"
+
+[[contracts]]
+kind = "DojoContract"
+address = "0x434586d13cdab6a782d09c3b4258d100d286003829833ab8b12c98576792d01"
+class_hash = "0x3709706f823e86028630084ac6eb777ec208af102ae29830c993022fe826dd3"
+original_class_hash = "0x3709706f823e86028630084ac6eb777ec208af102ae29830c993022fe826dd3"
+base_class_hash = "0x679177a2cb757694ac4f326d01052ff0963eac0bc2a17116a2b87badcdf6f76"
+abi = "abis/deployments/contracts/dojo_custom_events_systems_actions_actions.json"
+reads = []
+writes = []
+computed = []
+name = "dojo_custom_events::systems::actions::actions"
+
+[[models]]
+kind = "DojoModel"
+class_hash = "0x77aa0c4b1d5ed0734ae123e8c205e4911508557e0550d758e916f23ebfc27bf"
+original_class_hash = "0x77aa0c4b1d5ed0734ae123e8c205e4911508557e0550d758e916f23ebfc27bf"
+abi = "abis/deployments/models/dojo_custom_events_models_player_player.json"
+name = "dojo_custom_events::models::player::player"
+
+[[models.members]]
+name = "player"
+type = "ContractAddress"
+key = true
+
+[[models.members]]
+name = "name"
+type = "felt252"
+key = false
+
+[[models.members]]
+name = "health"
+type = "usize"
+key = false
+
+[[models.members]]
+name = "wins"
+type = "usize"
+key = false
+
+[[models.members]]
+name = "loss"
+type = "usize"
+key = false
